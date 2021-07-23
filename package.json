@@ -1,0 +1,8 @@
+{
+  "name": "parrot-sdk",
+  "version": "1.0.0",
+  "description": "A typescript sdk for parrot.fi",
+  "main": "dist/index.js",
+  "author": "@gopartyparrot",
+  "license": "MIT"
+}

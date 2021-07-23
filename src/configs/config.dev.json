@@ -1,0 +1,1255 @@
+{
+  "deployer": "HFfiWqZi7ryNCLiyMUiteLS5oUzJkUnjJLco7mEztiEP",
+  "debtTypes": [
+    {
+      "symbol": "PAI",
+      "debtOriginatorAuthority": "EiEvbPcs3nvBszLPRSA4AWvKUBk6ti41BowNvi3Uh1QK",
+      "debtTokenAddress": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp",
+      "debtTypeAddress": "43M5UXAkdrwPn6VFHkhmMqSrYMV88tmxbVstB62uB7NB",
+      "debtOriginator": "AJYVtcEiNaH67FRfcViA421haMRVu9t44joLk8CUiUho",
+      "interestsHolder": "9csWyU9KZ1vv8Q3yqyej4ZowbmvqbjfKt18nzKXSMJ3n",
+      "initialMint": "110000000000000"
+    },
+    {
+      "symbol": "pBTC",
+      "debtOriginatorAuthority": "4jZMBhh9MaGNTp6DgE7tgNEzjkkYSGY8Etb9Z3xAZNWm",
+      "debtTokenAddress": "BZuPhyfMWVUDiWhRxoz3pMrT2Nis12z1nLFGaWTiBgMV",
+      "debtTypeAddress": "DEuB5uPEX8G37SRWeiJNEv8NtcdPK7sJqV3rAEUTLjw8",
+      "debtOriginator": "D7jnV8cAgyQ2WETwQmzxJv8KNUMQBrJMLnwUATsVxYBf",
+      "interestsHolder": "9zjubbpTbMsJBrdAxMkFUqZq2DgMheCezerBtt8E2gW7",
+      "initialMint": "10000000000"
+    }
+  ],
+  "vaultTypes": [
+    {
+      "name": "BTC-PAI",
+      "address": "HrWaa5EdcMRGKuL4p8GaqD4ah1aQoXBdZ5eRMoT9rgq",
+      "debtTypeAddress": "43M5UXAkdrwPn6VFHkhmMqSrYMV88tmxbVstB62uB7NB",
+      "debtTokenAddress": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp",
+      "debtOriginator": "AJYVtcEiNaH67FRfcViA421haMRVu9t44joLk8CUiUho",
+      "debtOriginatorAuthority": "EiEvbPcs3nvBszLPRSA4AWvKUBk6ti41BowNvi3Uh1QK",
+      "interestsHolder": "9csWyU9KZ1vv8Q3yqyej4ZowbmvqbjfKt18nzKXSMJ3n",
+      "collateralTokenAddress": "HucYPuwULdjQb1bur5uMbUZgYS7UZSwo8SqheNrMTDNE",
+      "collateralTokenHolder": "2FR78bfRnWewgZRzA7fgAZQU2S5uR1BNAXGPzfppKd67",
+      "collateralTokenHolderAuthority": "F5BT3ZNRVM7AmySrUTtpqXyVZQJtihA3qSJBdFY7iE6p",
+      "priceOracle": "56q8nUrG1VM61rryFUEV32Yf9XqyUeZxqPYJJefXdUL",
+      "params": {
+        "minimumCollateralRatio": "20000",
+        "liquidationCollateralRatio": "15000",
+        "liquidationPenalty": "500",
+        "interestRate": "500",
+        "debtCeiling": "50000000000000",
+        "maxDebtLimit": "100",
+        "maxDeposit": "150",
+        "oracle": "btc:usd"
+      }
+    },
+    {
+      "name": "USDT-PAI",
+      "address": "7dkct4P9DXhHfJSMAg1bUFgeZCceWgj3QAHrsnMUuLda",
+      "debtTypeAddress": "43M5UXAkdrwPn6VFHkhmMqSrYMV88tmxbVstB62uB7NB",
+      "debtTokenAddress": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp",
+      "debtOriginator": "AJYVtcEiNaH67FRfcViA421haMRVu9t44joLk8CUiUho",
+      "debtOriginatorAuthority": "EiEvbPcs3nvBszLPRSA4AWvKUBk6ti41BowNvi3Uh1QK",
+      "interestsHolder": "9csWyU9KZ1vv8Q3yqyej4ZowbmvqbjfKt18nzKXSMJ3n",
+      "collateralTokenAddress": "9rbmGx6KVqBrbcbPeMMSKWgLtCJF2rCATPn1fjZyy6AU",
+      "collateralTokenHolder": "APywGhyUbxP1qXDSxQe7tUSmFNokHV3jqxnPEaF3sU47",
+      "collateralTokenHolderAuthority": "87EnjUe4PcCCn31U9xCCZ2jZUgpsFTBW9VzgSfEZKccq",
+      "priceOracle": "STABLEQRACLE1111111111111111111111111111111",
+      "params": {
+        "minimumCollateralRatio": "10495",
+        "liquidationCollateralRatio": "10000",
+        "liquidationPenalty": "500",
+        "interestRate": "0",
+        "debtCeiling": "50000000000",
+        "maxDebtLimit": "100",
+        "maxDeposit": "150",
+        "oracle": "usd:usd"
+      }
+    },
+    {
+      "name": "USDC-PAI",
+      "address": "3LiRhciStDk3w7nF4GQv3rhQStzUu9aZFHSvM7K59cLc",
+      "debtTypeAddress": "43M5UXAkdrwPn6VFHkhmMqSrYMV88tmxbVstB62uB7NB",
+      "debtTokenAddress": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp",
+      "debtOriginator": "AJYVtcEiNaH67FRfcViA421haMRVu9t44joLk8CUiUho",
+      "debtOriginatorAuthority": "EiEvbPcs3nvBszLPRSA4AWvKUBk6ti41BowNvi3Uh1QK",
+      "interestsHolder": "9csWyU9KZ1vv8Q3yqyej4ZowbmvqbjfKt18nzKXSMJ3n",
+      "collateralTokenAddress": "GWskNZjomjr57WPQPrzegqYFZ6o5TkSDij1CvtMUpuST",
+      "collateralTokenHolder": "8ecKLErdyCodb71zJvVt7C1cPAYYKKQtwenz9EPBjMg4",
+      "collateralTokenHolderAuthority": "9nTzuvJskNhngmDmMTnyZtvQMePF2vFriPXaT5dQuvPH",
+      "priceOracle": "STABLEQRACLE1111111111111111111111111111111",
+      "params": {
+        "minimumCollateralRatio": "10495",
+        "liquidationCollateralRatio": "10000",
+        "liquidationPenalty": "500",
+        "interestRate": "0",
+        "debtCeiling": "50000000000",
+        "maxDebtLimit": "100",
+        "maxDeposit": "150",
+        "oracle": "usd:usd"
+      }
+    },
+    {
+      "name": "USDC-pBTC",
+      "address": "Bio9ig9Z8aJHCaAs7KCRF8NBiUA8ESqqvUojhUWiLsAw",
+      "debtTypeAddress": "DEuB5uPEX8G37SRWeiJNEv8NtcdPK7sJqV3rAEUTLjw8",
+      "debtTokenAddress": "BZuPhyfMWVUDiWhRxoz3pMrT2Nis12z1nLFGaWTiBgMV",
+      "debtOriginator": "D7jnV8cAgyQ2WETwQmzxJv8KNUMQBrJMLnwUATsVxYBf",
+      "debtOriginatorAuthority": "4jZMBhh9MaGNTp6DgE7tgNEzjkkYSGY8Etb9Z3xAZNWm",
+      "interestsHolder": "9zjubbpTbMsJBrdAxMkFUqZq2DgMheCezerBtt8E2gW7",
+      "collateralTokenAddress": "GWskNZjomjr57WPQPrzegqYFZ6o5TkSDij1CvtMUpuST",
+      "collateralTokenHolder": "5Bm589kswyx3kKT2Rx4DKgZNQcv8zS4CTcKNSnszmd5G",
+      "collateralTokenHolderAuthority": "HrcgERogYUQwtaFF7LynHX3d3UVzzzefWJw6aRrb2XZ1",
+      "priceOracle": "8L74kVQkZYnvQYz9KLt4G2DLgSXmkky3rLzfAEmfRP7N",
+      "params": {
+        "minimumCollateralRatio": "80000",
+        "liquidationCollateralRatio": "12500",
+        "liquidationPenalty": "500",
+        "interestRate": "0",
+        "debtCeiling": "100000000000",
+        "maxDebtLimit": "500000000",
+        "maxDeposit": "1000000000000",
+        "oracle": "usdc:btc"
+      }
+    },
+    {
+      "name": "SOL-PAI",
+      "address": "7ShDhP5CtNyeeHo78D1btzvbFAmnBGGpoZK7iWrmzru8",
+      "debtTypeAddress": "43M5UXAkdrwPn6VFHkhmMqSrYMV88tmxbVstB62uB7NB",
+      "debtTokenAddress": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp",
+      "debtOriginator": "AJYVtcEiNaH67FRfcViA421haMRVu9t44joLk8CUiUho",
+      "debtOriginatorAuthority": "EiEvbPcs3nvBszLPRSA4AWvKUBk6ti41BowNvi3Uh1QK",
+      "interestsHolder": "9csWyU9KZ1vv8Q3yqyej4ZowbmvqbjfKt18nzKXSMJ3n",
+      "collateralTokenAddress": "So11111111111111111111111111111111111111112",
+      "collateralTokenHolder": "Hiq4Bnw4J52jgwpTbUUEBq42DZK89PqAoYY4ivx3E2ND",
+      "collateralTokenHolderAuthority": "BpCCZPaFb68gZYcGV4Qvh2bW2RpifJjxiFKF2kXNx8a",
+      "priceOracle": "8APHYXJrL4yegAX4q8EcGb3FmYWvSr7tVunicuBRLSMT",
+      "params": {
+        "minimumCollateralRatio": "80000",
+        "liquidationCollateralRatio": "12500",
+        "liquidationPenalty": "500",
+        "interestRate": "500",
+        "debtCeiling": "25000000000",
+        "maxDebtLimit": "10",
+        "maxDeposit": "2",
+        "oracle": "sol:usd"
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "symbol": "PAI",
+      "name": "Parrot Stable",
+      "decimals": 6,
+      "displayDecimals": 2,
+      "address": "H8jceRKdKW7F2H7odgKctQZwtJnxxwuinzDhBY7vXDpp"
+    },
+    {
+      "symbol": "BTC",
+      "name": "Wrapped Bitcoin (Wormhole)",
+      "decimals": 8,
+      "displayDecimals": 8,
+      "address": "HucYPuwULdjQb1bur5uMbUZgYS7UZSwo8SqheNrMTDNE"
+    },
+    {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayDecimals": 2,
+      "address": "GWskNZjomjr57WPQPrzegqYFZ6o5TkSDij1CvtMUpuST"
+    },
+    {
+      "symbol": "USDT",
+      "name": "USD Tether",
+      "decimals": 6,
+      "displayDecimals": 2,
+      "address": "9rbmGx6KVqBrbcbPeMMSKWgLtCJF2rCATPn1fjZyy6AU"
+    },
+    {
+      "symbol": "pBTC",
+      "name": "Parrot BTC",
+      "decimals": 8,
+      "displayDecimals": 8,
+      "address": "BZuPhyfMWVUDiWhRxoz3pMrT2Nis12z1nLFGaWTiBgMV"
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9,
+      "displayDecimals": 4
+    }
+  ],
+  "channel": "dev",
+  "programId": "6NDNsLbFcjmxo3BZ5A1MBRaNKig57XgfmGDj5bnX9Hmy",
+  "programIdl": {
+    "version": "0.0.0",
+    "name": "parrot",
+    "instructions": [
+      {
+        "name": "initDebtType",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtToken",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginator",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "interestsHolder",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "rent",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "nonce",
+            "type": "u8"
+          }
+        ]
+      },
+      {
+        "name": "updateDebtType",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          }
+        ],
+        "args": [
+          {
+            "name": "update",
+            "type": {
+              "defined": "DebtTypeUpdate"
+            }
+          }
+        ]
+      },
+      {
+        "name": "initVaultType",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "collateralToken",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenHolder",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "priceOracle",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "rent",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "nonce",
+            "type": "u8"
+          },
+          {
+            "name": "minimumCollateralRatio",
+            "type": "u64"
+          },
+          {
+            "name": "liquidationCollateralRatio",
+            "type": "u64"
+          },
+          {
+            "name": "liquidationPenalty",
+            "type": "u64"
+          },
+          {
+            "name": "interestRate",
+            "type": "u128"
+          },
+          {
+            "name": "debtCeiling",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "updateVaultType",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "update",
+            "type": {
+              "defined": "VaultTypeUpdate"
+            }
+          }
+        ]
+      },
+      {
+        "name": "initVault",
+        "accounts": [
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "rent",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "systemProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": []
+      },
+      {
+        "name": "collectVaultInterests",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginator",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginatorAuthority",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "interestsHolder",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          }
+        ],
+        "args": []
+      },
+      {
+        "name": "stake",
+        "accounts": [
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "collateralFrom",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "collateralFromAuthority",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "collateralTo",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "borrow",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenMint",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vaultOwner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtToken",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginator",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginatorAuthority",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "receiver",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "oracle",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "repay",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtToken",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtFrom",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtFromAuthority",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "debtOriginator",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "unstake",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtToken",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "oracle",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultOwner",
+            "isMut": true,
+            "isSigner": true
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "collateralToken",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenHolder",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenHolderAuthority",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "receiver",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "liquidate",
+        "accounts": [
+          {
+            "name": "debtType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vaultType",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "oracle",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "collateralToken",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenHolder",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "collateralTokenHolderAuthority",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "debtToken",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtOriginator",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtFrom",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "debtFromAuthority",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "liquidatedCollateralReceiver",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "initOracle",
+        "accounts": [
+          {
+            "name": "oracle",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "rent",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": []
+      },
+      {
+        "name": "setOracleValue",
+        "accounts": [
+          {
+            "name": "oracle",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "price",
+            "type": "u64"
+          },
+          {
+            "name": "priceDecimal",
+            "type": "u8"
+          }
+        ]
+      },
+      {
+        "name": "vaultDebtAccum",
+        "accounts": [
+          {
+            "name": "vaultType",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "vault",
+            "isMut": false,
+            "isSigner": false
+          },
+          {
+            "name": "clock",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": []
+      }
+    ],
+    "accounts": [
+      {
+        "name": "DebtType",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "version",
+              "type": "u8"
+            },
+            {
+              "name": "debtToken",
+              "type": "publicKey"
+            },
+            {
+              "name": "debtOriginator",
+              "type": "publicKey"
+            },
+            {
+              "name": "interestsHolder",
+              "type": "publicKey"
+            },
+            {
+              "name": "owner",
+              "type": "publicKey"
+            },
+            {
+              "name": "nonce",
+              "type": "u8"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VaultType",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "version",
+              "type": "u8"
+            },
+            {
+              "name": "debtType",
+              "type": "publicKey"
+            },
+            {
+              "name": "collateralToken",
+              "type": "publicKey"
+            },
+            {
+              "name": "collateralTokenHolder",
+              "type": "publicKey"
+            },
+            {
+              "name": "priceOracle",
+              "type": "publicKey"
+            },
+            {
+              "name": "nonce",
+              "type": "u8"
+            },
+            {
+              "name": "minimumCollateralRatio",
+              "type": "u64"
+            },
+            {
+              "name": "liquidationCollateralRatio",
+              "type": "u64"
+            },
+            {
+              "name": "liquidationPenalty",
+              "type": "u64"
+            },
+            {
+              "name": "interestRate",
+              "type": "u128"
+            },
+            {
+              "name": "interestAccum",
+              "type": "u128"
+            },
+            {
+              "name": "interestAccumUpdated",
+              "type": "u64"
+            },
+            {
+              "name": "accruedInterests",
+              "type": "u128"
+            },
+            {
+              "name": "debtCeiling",
+              "type": "u64"
+            },
+            {
+              "name": "totalDebt",
+              "type": "u128"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Vault",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "version",
+              "type": "u8"
+            },
+            {
+              "name": "vaultType",
+              "type": "publicKey"
+            },
+            {
+              "name": "owner",
+              "type": "publicKey"
+            },
+            {
+              "name": "debtAmount",
+              "type": "u128"
+            },
+            {
+              "name": "collateralAmount",
+              "type": "u128"
+            },
+            {
+              "name": "interestAccum",
+              "type": "u128"
+            }
+          ]
+        }
+      },
+      {
+        "name": "MockOracle",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "price",
+              "type": "u64"
+            },
+            {
+              "name": "priceDecimal",
+              "type": "u8"
+            }
+          ]
+        }
+      }
+    ],
+    "types": [
+      {
+        "name": "DebtTypeUpdate",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "owner",
+              "type": {
+                "option": "publicKey"
+              }
+            },
+            {
+              "name": "interestsHolder",
+              "type": {
+                "option": "publicKey"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "VaultTypeUpdate",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "minimumCollateralRatio",
+              "type": {
+                "option": "u64"
+              }
+            },
+            {
+              "name": "liquidationCollateralRatio",
+              "type": {
+                "option": "u64"
+              }
+            },
+            {
+              "name": "liquidationPenalty",
+              "type": {
+                "option": "u64"
+              }
+            },
+            {
+              "name": "interestRate",
+              "type": {
+                "option": "u128"
+              }
+            },
+            {
+              "name": "debtCeiling",
+              "type": {
+                "option": "u64"
+              }
+            },
+            {
+              "name": "priceOracle",
+              "type": {
+                "option": "publicKey"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "EventType",
+        "type": {
+          "kind": "enum",
+          "variants": [
+            {
+              "name": "UpdateDebtType",
+              "fields": [
+                {
+                  "name": "debt_type",
+                  "type": "publicKey"
+                }
+              ]
+            },
+            {
+              "name": "InitVaultType",
+              "fields": [
+                {
+                  "name": "vault_type",
+                  "type": "publicKey"
+                }
+              ]
+            },
+            {
+              "name": "UpdateVaultType",
+              "fields": [
+                {
+                  "name": "vault_type",
+                  "type": "publicKey"
+                }
+              ]
+            },
+            {
+              "name": "InitVault",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                }
+              ]
+            },
+            {
+              "name": "Stake",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u64"
+                }
+              ]
+            },
+            {
+              "name": "Borrow",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u64"
+                }
+              ]
+            },
+            {
+              "name": "Repay",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u64"
+                }
+              ]
+            },
+            {
+              "name": "Unstake",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u64"
+                }
+              ]
+            },
+            {
+              "name": "Liquidate",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u64"
+                }
+              ]
+            },
+            {
+              "name": "VaultDebtAccum",
+              "fields": [
+                {
+                  "name": "vault",
+                  "type": "publicKey"
+                },
+                {
+                  "name": "amount",
+                  "type": "u128"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "TokenPrice",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "tokenDecimal",
+              "type": "u8"
+            },
+            {
+              "name": "bidTokenDecimal",
+              "type": "u8"
+            },
+            {
+              "name": "price",
+              "type": "u64"
+            },
+            {
+              "name": "priceDecimal",
+              "type": "u8"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "ParrotEvt",
+        "fields": [
+          {
+            "name": "version",
+            "type": "u8",
+            "index": false
+          },
+          {
+            "name": "typ",
+            "type": {
+              "defined": "EventType"
+            },
+            "index": false
+          }
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "code": 100,
+        "name": "NumberOverflow",
+        "msg": "[P001] number overflow"
+      },
+      {
+        "code": 101,
+        "name": "InsufficientCollateral",
+        "msg": "[P002] Insufficient collateral ratio"
+      },
+      {
+        "code": 102,
+        "name": "LiquidationOverCollateralize",
+        "msg": "[P003] try to liquidate a vault that still have enough collateral"
+      },
+      {
+        "code": 103,
+        "name": "PriceOracleMismatch",
+        "msg": "[P004] invalid price oracle"
+      },
+      {
+        "code": 104,
+        "name": "InvalidParams",
+        "msg": "[P005] invalid params"
+      },
+      {
+        "code": 105,
+        "name": "ReachVaultTypeCeiling",
+        "msg": "[P006] reach vault type global mint ceiling"
+      },
+      {
+        "code": 106,
+        "name": "NotEnoughAccountSize",
+        "msg": "[P007] not enough account size allocated"
+      },
+      {
+        "code": 107,
+        "name": "InvalidStableLiquidation",
+        "msg": "[P008] cannot liquidate stable vaults"
+      }
+    ],
+    "metadata": {
+      "address": "6NDNsLbFcjmxo3BZ5A1MBRaNKig57XgfmGDj5bnX9Hmy"
+    }
+  }
+}
