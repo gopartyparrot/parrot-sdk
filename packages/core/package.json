@@ -1,6 +1,6 @@
 {
 	"name": "@parrotfi/core",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A typescript sdk for parrot.fi",
 	"workspaces": [
 		"packages/*"
@@ -12,6 +12,7 @@
 	"scripts": {
 		"prebuild": "rimraf ./dist",
 		"build": "tsc",
+		"prepublish": "yarn build",
 		"publish": "yarn npm publish --access public"
 	},
 	"dependencies": {
