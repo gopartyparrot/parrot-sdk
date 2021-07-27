@@ -14,8 +14,9 @@
 	"license": "MIT",
 	"scripts": {
 		"prebuild": "rimraf ./dist && make nodejs",
-		"build": "tsc -p ./tsconfig.build.json",
-		"postbuild": "cp ./lib/*.wasm ./dist"
+		"build": "tsc -p ./tsconfig.json",
+		"postbuild": "cp ./lib/*.wasm ./dist",
+		"publish": "yarn npm publish --access public"
 	},
 	"dependencies": {
 		"@project-serum/anchor": "0.5.0",

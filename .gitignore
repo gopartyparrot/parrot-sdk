@@ -1,3 +1,4 @@
-core/dist
+packages/core/dist
+packages/wasm/target
 node_modules
 yarn-*
