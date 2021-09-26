@@ -293,3 +293,5 @@ export const tokens: Record<string, IToken> = {
     decimals: 6,
   },
 };
+
+export const tokenList = Object.keys(tokens).map((mint) => tokens[mint]);

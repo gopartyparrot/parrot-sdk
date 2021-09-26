@@ -1,6 +1,6 @@
 {
 	"name": "@parrotfi/configs",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "A typescript sdk for parrot.fi",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -9,7 +9,6 @@
 	"scripts": {
 		"prebuild": "rimraf ./dist",
 		"build": "tsc",
-		"prepublish": "yarn build",
 		"publish": "npm publish --access public"
 	},
 	"devDependencies": {
