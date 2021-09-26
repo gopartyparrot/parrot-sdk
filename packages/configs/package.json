@@ -2,9 +2,6 @@
 	"name": "@parrotfi/configs",
 	"version": "1.0.0",
 	"description": "A typescript sdk for parrot.fi",
-	"workspaces": [
-		"packages/*"
-	],
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"author": "mosspig323",
