@@ -1,0 +1,37 @@
+{
+	"name": "@parrotfi/configs",
+	"version": "1.0.0",
+	"description": "A typescript sdk for parrot.fi",
+	"workspaces": [
+		"packages/*"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"author": "mosspig323",
+	"license": "MIT",
+	"scripts": {
+		"prebuild": "rimraf ./dist",
+		"build": "tsc",
+		"prepublish": "yarn build",
+		"publish": "npm publish --access public"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.24",
+		"jest": "27.0.3",
+		"rimraf": "^3.0.2",
+		"typescript": "4.3.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gopartyparrot/parrot-sdk.git"
+	},
+	"keywords": [
+		"parrot.fi",
+		"program",
+		"sdk"
+	],
+	"bugs": {
+		"url": "https://github.com/gopartyparrot/parrot-sdk/issues"
+	},
+	"homepage": "https://github.com/gopartyparrot/parrot-sdk#readme"
+}

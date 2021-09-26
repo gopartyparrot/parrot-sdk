@@ -13,7 +13,9 @@
     "core:build": "yarn workspace @parrotfi/core build",
     "core:publish": "yarn workspace @parrotfi/core publish",
     "wasm:build": "yarn workspace @parrotfi/wasm build",
-    "wasm:publish": "yarn workspace @parrotfi/wasm publish"
+    "wasm:publish": "yarn workspace @parrotfi/wasm publish",
+    "configs:build": "yarn workspace @parrotfi/configs build",
+    "configs:publish": "yarn workspace @parrotfi/configs publish"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
