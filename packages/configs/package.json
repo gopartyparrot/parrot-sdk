@@ -1,6 +1,6 @@
 {
 	"name": "@parrotfi/configs",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A typescript sdk for parrot.fi",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
